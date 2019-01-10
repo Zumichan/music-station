@@ -6,8 +6,8 @@ class Library extends Component {
   constructor(props) {
     super(props);
     this.state = {
-       albums: albumData
-    };//store albumData as a property of state object
+       albums: albumData //store albumData as a property of state object
+    };
   }
   render() {
     return (
