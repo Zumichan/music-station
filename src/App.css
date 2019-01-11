@@ -7,22 +7,22 @@
 }
 
 .music-note {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .block-icon {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .mobile-icon {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 55px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -44,7 +44,7 @@
 }
 
 .album-link img {
-  width: 20rem;
+  width: 15rem;
 }
 
 .album-title {
@@ -86,6 +86,22 @@
   width: 3rem;
 }
 
+#album-title {
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  margin-left: 10%;
+  margin-top: 0;
+}
+
+#artist,#release-info {
+  color: #bdbdbd;
+  font-weight: 400;
+  margin: 0.5rem;
+  font-size: 15px;
+  margin-left: 10%;
+}
+
 #song-list {
   width: 65%;
   vertical-align: top;
@@ -94,32 +110,19 @@
   margin-left: 10%;
 }
 
-#album-title {
-  color: white;
-  text-align: left;
-  font-size: 30px;
-  margin-left: 10%;
-  margin-top: 5%;
-}
-
-.artist,#release-info {
-  color: #bdbdbd;
-  font-weight: 400;
-  margin: 0.5rem;
-  font-size: 15px;
-  margin-left: 10%;
+.album-information {
+  display: flex;
+  margin-top: 40px;
 }
 
 #album-cover-art {
-  width: 40%;
+  width: 100%;
   height: auto;
-  margin-top: 35px;
-  margin-left: 10px;
 }
 
-.album-info {
+/*.album-info {
   text-align: left;
-}
+}*/
 
 /* Player Bar */
 input[type=range] {
@@ -168,7 +171,13 @@ input[type=range] {
   font-size: 1.6rem;
 }
 
-#time-control {
+#control-bar {
+  display: inline-block;
+  width: fit-content;
+}
+
+
+/*#time-control {
   display: inline-block;
   width: fit-content;
   margin: 0;
@@ -179,4 +188,15 @@ input[type=range] {
   display: inline-block;
   width: fit-content;
   padding: 10px;
+}*/
+
+/*footer*/
+
+.footer-copyright {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #404040;
+  color: white;
+  text-align: center;
 }

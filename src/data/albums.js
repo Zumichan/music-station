@@ -18,10 +18,23 @@ export default [{
     albumCover: '/assets/images/album_covers/02.jpg',
     slug: 'the-telephone',
     songs: [
-      { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
-      { title: 'Green', duration: '103.96', audioSrc: '/assets/music/green.mp3' },
-      { title: 'Red', duration: '268.45', audioSrc: '/assets/music/red.mp3' },
-      { title: 'Pink', duration: '153.14', audioSrc: '/assets/music/pink.mp3' },
-      { title: 'Magenta', duration: '374.22', audioSrc: '/assets/music/magenta.mp3' }
+      { title: 'Beep Beep Beep', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
+      { title: 'The Telephone', duration: '103.96', audioSrc: '/assets/music/green.mp3' },
+      { title: "I'm waiting for you", duration: '268.45', audioSrc: '/assets/music/red.mp3' },
+      { title: 'Someday..', duration: '153.14', audioSrc: '/assets/music/pink.mp3' },
+      { title: 'My best friend', duration: '374.22', audioSrc: '/assets/music/magenta.mp3' }
+    ]
+}, {
+    title: 'Fly High',
+    artist: 'Vincent Handinsky ',
+    releaseInfo: '2019 EM',
+    albumCover: '/assets/images/album_covers/03.jpg',
+    slug: 'fly-high',
+    songs: [
+      { title: 'Fly High', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
+      { title: 'To the stars', duration: '103.96', audioSrc: '/assets/music/green.mp3' },
+      { title: 'My memories', duration: '268.45', audioSrc: '/assets/music/red.mp3' },
+      { title: 'Friends', duration: '153.14', audioSrc: '/assets/music/pink.mp3' },
+      { title: 'Water Dance', duration: '374.22', audioSrc: '/assets/music/magenta.mp3' }
     ]
 }];

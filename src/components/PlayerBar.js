@@ -15,6 +15,7 @@ import React, { Component } from 'react';
              <span className="ion-md-fastforward"></span>
            </button>
          </section>
+         <section id="control-bar">
          <section id="time-control">
            <div className="current-time">{this.props.currentTime}</div>
            <input
@@ -40,6 +41,7 @@ import React, { Component } from 'react';
              onChange={this.props.handleVolumeChange}
            />
            <div className="icon ion-md-volume-high"></div>
+         </section>
          </section>
        </section>
      );
