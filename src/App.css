@@ -1,32 +1,182 @@
-.App {
+/* Landing*/
+.jumbotron {
+  background: url("data/home-img.jpg") center no-repeat;
+  background-size: cover;
+  position: auto;
+  height: 100%;
+}
+
+.music-note {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.block-icon {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.mobile-icon {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Library.js*/
+.library {
+  text-align: center;
+}
+
+.album-link {
+  position: relative;
+  display: inline-block;
+  margin: 2.5rem;
+  padding: 0.1rem;
+  width: fit-content;
+  text-align: center;
+  top: 0;
+  transition: top ease 0.2s;
+}
+
+.album-link img {
+  width: 20rem;
+}
+
+.album-title {
   color: white;
+  font-size: 115%;
+  margin: auto;
+  margin-top: 10px;
+  width: fit-content;
 }
 
-.App-link {
-  color: #61dafb;
+.album-artist {
+  color: white;
+  margin: auto;
+  width: fit-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.album-length {
+  color: white;
+  margin: auto;
+  width: fit-content;
+}
+
+/* Album.js */
+.song {
+  line-height: 3rem;
+  cursor: pointer;
+}
+
+.song:hover {
+  background:purple;
+}
+
+.song-actions {
+  width: 3rem;
+  cursor: pointer;
+}
+
+.song-duration {
+  width: 3rem;
+}
+
+#song-list {
+  width: 65%;
+  vertical-align: top;
+  color: black;
+  position: left;
+  margin-left: 10%;
+}
+
+#album-title {
+  color: white;
+  text-align: left;
+  font-size: 30px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.artist,#release-info {
+  color: #bdbdbd;
+  font-weight: 400;
+  margin: 0.5rem;
+  font-size: 15px;
+  margin-left: 10%;
+}
+
+#album-cover-art {
+  width: 40%;
+  height: auto;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+.album-info {
+  text-align: left;
+}
+
+/* Player Bar */
+input[type=range] {
+  display: inline-block;
+  background: transparent;
+}
+
+.player-bar {
+  color: white;
+  background: purple;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  height: 8rem;
+  width: 100%;
+  margin-top: 50px;
+}
+
+#buttons {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.seek-bar {
+  width: 50vw;
+}
+
+.current-time {
+  display: inline-block;
+  padding-right: 0.5rem;
+}
+
+.total-time {
+  display: inline-block;
+  padding-left: 0.5rem;
+}
+
+.volume-bar {
+  vertical-align: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.icon {
+  display: inline-block;
+  padding-right: 0.5rem;
+  font-size: 1.6rem;
+}
+
+#time-control {
+  display: inline-block;
+  width: fit-content;
+  margin: 0;
+  padding: 10px;
+}
+
+#volume-control {
+  display: inline-block;
+  width: fit-content;
+  padding: 10px;
 }
