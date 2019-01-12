@@ -6,6 +6,11 @@
   height: 100%;
 }
 
+.home-icon {
+  height: 50px;
+  width: 50px;
+}
+
 .music-note {
   height: 50px;
   width: 50px;

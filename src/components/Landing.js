@@ -31,7 +31,9 @@ const Landing = () => (
   </div>
 
   <footer className="page-footer font-small pt-4">
-    <div className="footer-copyright text-center py-3">© 2019 Music Station</div>
+    <div className="footer-copyright text-center py-3">
+    © 2019 Music Station | Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a>
+    </div>
   </footer>
 
   </main>

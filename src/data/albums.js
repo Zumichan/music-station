@@ -5,11 +5,11 @@ export default [{
   albumCover: '/assets/images/album_covers/01.jpg',
   slug: 'the-colors',
   songs: [
-      { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
-      { title: 'Green', duration: '103.96', audioSrc: '/assets/music/green.mp3' },
-      { title: 'Red', duration: '268.45', audioSrc: '/assets/music/red.mp3' },
-      { title: 'Pink', duration: '153.14', audioSrc: '/assets/music/pink.mp3' },
-      { title: 'Magenta', duration: '374.22', audioSrc: '/assets/music/magenta.mp3' }
+      { title: 'Blue', duration: '2:41', audioSrc: '/assets/music/blue.mp3' },
+      { title: 'Green', duration: '1:43', audioSrc: '/assets/music/green.mp3' },
+      { title: 'Red', duration: '4:28', audioSrc: '/assets/music/red.mp3' },
+      { title: 'Pink', duration: '2:33', audioSrc: '/assets/music/pink.mp3' },
+      { title: 'Magenta', duration: '6:14', audioSrc: '/assets/music/magenta.mp3' }
   ]
 }, {
     title: 'The Telephone',
@@ -18,11 +18,11 @@ export default [{
     albumCover: '/assets/images/album_covers/02.jpg',
     slug: 'the-telephone',
     songs: [
-      { title: 'Beep Beep Beep', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
-      { title: 'The Telephone', duration: '103.96', audioSrc: '/assets/music/green.mp3' },
-      { title: "I'm waiting for you", duration: '268.45', audioSrc: '/assets/music/red.mp3' },
-      { title: 'Someday..', duration: '153.14', audioSrc: '/assets/music/pink.mp3' },
-      { title: 'My best friend', duration: '374.22', audioSrc: '/assets/music/magenta.mp3' }
+      { title: 'Beep Beep Beep', duration: '2:41', audioSrc: '/assets/music/blue.mp3' },
+      { title: 'The Telephone', duration: '1.43', audioSrc: '/assets/music/green.mp3' },
+      { title: "I'm waiting for you", duration: '4.28', audioSrc: '/assets/music/red.mp3' },
+      { title: 'Someday..', duration: '2:33', audioSrc: '/assets/music/pink.mp3' },
+      { title: 'My best friend', duration: '6:14', audioSrc: '/assets/music/magenta.mp3' }
     ]
 }, {
     title: 'Fly High',
@@ -31,10 +31,9 @@ export default [{
     albumCover: '/assets/images/album_covers/03.jpg',
     slug: 'fly-high',
     songs: [
-      { title: 'Fly High', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
-      { title: 'To the stars', duration: '103.96', audioSrc: '/assets/music/green.mp3' },
-      { title: 'My memories', duration: '268.45', audioSrc: '/assets/music/red.mp3' },
-      { title: 'Friends', duration: '153.14', audioSrc: '/assets/music/pink.mp3' },
-      { title: 'Water Dance', duration: '374.22', audioSrc: '/assets/music/magenta.mp3' }
+      { title: 'Fly High', duration: '2:41', audioSrc: '/assets/music/blue.mp3' },
+      { title: 'Water Dance', duration: '1:43', audioSrc: '/assets/music/green.mp3' },
+      { title: 'My memories', duration: '4:28', audioSrc: '/assets/music/red.mp3' },
+      { title: 'Friends', duration: '2:33', audioSrc: '/assets/music/pink.mp3' },
     ]
 }];
